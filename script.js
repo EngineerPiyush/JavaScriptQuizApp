@@ -133,7 +133,7 @@ startBtn.addEventListener("click", function () {
   container.style.display = "flex";
   currentQuestion = 0;
   score = 0;
-  timeLeft = 60;
+  timeLeft = 180;
   timer.textContent = timeLeft;
 
   loadQuestion();
@@ -153,3 +153,4 @@ function startTimer() {
     }
   }, 1000);
 }
+
